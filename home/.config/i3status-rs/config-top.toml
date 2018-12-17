@@ -13,13 +13,12 @@ block = "backlight"
 block = "sound"
 
 [[block]]
-block = "time"
-format = "%a %m/%d %R %Z"
-timezone = "US/Pacific"
-interval = 60
-
-[[block]]
 block = "battery"
 upower = true
 format = "{percentage}% {time} {power}W"
 
+[[block]]
+block = "time"
+format = "%a %m/%d %R %Z"
+timezone = "US/Pacific"
+interval = 60
