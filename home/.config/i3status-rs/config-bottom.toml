@@ -17,7 +17,7 @@ block = "uptime"
 
 [[block]]
 block = "pacman"
-interval = 3600
+interval = 900
 
 [[block]]
 block = "disk_space"
