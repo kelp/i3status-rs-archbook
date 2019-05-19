@@ -19,6 +19,6 @@ format = "{percentage}% {time} {power}W"
 
 [[block]]
 block = "time"
-format = "%a %m%d  %T %Z"
+format = "%Y%m%d%A  %T %Z"
 timezone = "US/Pacific"
 interval = 60
